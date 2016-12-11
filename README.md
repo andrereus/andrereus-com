@@ -1,7 +1,5 @@
 # Andre Reus Website V2
 
-![Andre Reus Website V2](app/files/images/andrereus-com-v2-browser.png)
-
 ## Dependencies
 
 Install Node.js (stable version): https://nodejs.org/
