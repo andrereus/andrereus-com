@@ -1,24 +1,71 @@
 body {
+    background: $white-color;
     font-family: $text-font;
     color: $text-color;
+
+    h1 {
+        font-family: $heading-font;
+    }
+
+    a {
+        color: $link-color;
+        text-decoration: none;
+
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
 }
 
-h1, h2, h3, h4 {
-    font-family: $heading-font;
-}
+header {
+    display: flex;
+    padding: 100px 20px;
 
-a {
-    color: $link-color;
-    text-decoration: none;
+    perspective: 1000px;
+    transform-style: preserve-3d;
 
-    &:hover, &:focus {
+    color: $white-color;
+
+    p > a {
+        color: $white-color;
         text-decoration: underline;
     }
 }
 
-header, footer {
+footer {
     padding: 20px;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+.card {
+    margin: auto;
+    display: flex;
+
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+
+    transform: translateZ(0);
+    transform-style: preserve-3d;
+
+    background: #e74c3c;
+    background: linear-gradient(0deg, #9b59b6, #4aa3df, #1abc9c, #2ecc71, #f1c40f, #e67e22, #e74c3c);
+    background-size: 1400% 1400%;
+    animation: Animation 30s ease infinite;
+
+    .card-content {
+        margin: auto;
+        text-align: center;
+        transform-style: preserve-3d;
+    }
+
+    h1, p {
+        // Firefox & Edge Bugfix
+        transform: translateZ(20px);
+    }
 }
 
 #design {
@@ -30,4 +77,22 @@ header, footer {
         width: 100%;
         margin: 20px 0;
     }
+}
+
+@media (max-width: 425px) {
+    .card-content {
+        h1 {
+            font-size: 1.7em;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+    }
+}
+
+@keyframes Animation {
+    0% {background-position: 50% 0%;}
+    50% {background-position: 50% 100%;}
+    100% {background-position: 50% 0%;}
 }
