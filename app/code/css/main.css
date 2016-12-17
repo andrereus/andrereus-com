@@ -2763,7 +2763,7 @@ footer {
     text-align: center;
     transform-style: preserve-3d; }
   .card h1, .card p {
-    transform: translateZ(10px); }
+    transform: translateZ(20px); }
 
 #design {
   max-width: 960px;
