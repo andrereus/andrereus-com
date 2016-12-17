@@ -19,7 +19,7 @@ body {
 
 header {
     display: flex;
-    padding: 100px 20px;
+    padding: 120px 20px 100px;
 
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -46,7 +46,7 @@ footer {
     height: 200px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
 
     transform: translateZ(0);
     transform-style: preserve-3d;
@@ -64,7 +64,7 @@ footer {
 
     h1, p {
         // Firefox & Edge Bugfix
-        transform: translateZ(20px);
+        transform: translateZ(10px);
     }
 }
 
@@ -80,6 +80,10 @@ footer {
 }
 
 @media (max-width: 425px) {
+    header {
+        padding: 60px 20px 40px;
+    }
+
     .card-content {
         h1 {
             font-size: 1.7em;
