@@ -1,0 +1,11 @@
+{
+	"name": "Andre Reus",
+	"icons": [
+		{
+			"src": "files\/favicons\/android-chrome-48x48.png",
+			"sizes": "48x48",
+			"type": "image\/png"
+		}
+	],
+	"theme_color": "#ffffff"
+}
