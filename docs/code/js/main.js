@@ -8,6 +8,6 @@ $(document).on("mousemove",function(e) {
 
 $(function() {
     $("img.lazy").lazyload({
-        threshold : 200
+        threshold: 200;
     });
 });
