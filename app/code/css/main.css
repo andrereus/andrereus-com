@@ -2796,7 +2796,7 @@ footer {
   .card-content p {
     font-size: 0.9em; } }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .card-content h1 {
     font-size: 1.5em; } }
 
