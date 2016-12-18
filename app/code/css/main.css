@@ -2781,6 +2781,12 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05); }
     #design img:hover, #design img:focus {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
+  #design:before {
+    display: block;
+    content: "";
+    margin-top: -50px;
+    height: 50px;
+    visibility: hidden; }
 
 @media (max-width: 425px) {
   header {
