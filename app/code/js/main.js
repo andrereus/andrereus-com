@@ -7,5 +7,7 @@ $(document).on("mousemove",function(e) {
 });
 
 $(function() {
-    $("img.lazy").lazyload();
+    $("img.lazy").lazyload({
+        threshold : 200
+    });
 });
