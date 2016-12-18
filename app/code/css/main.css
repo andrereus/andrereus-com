@@ -2796,6 +2796,10 @@ footer {
   .card-content p {
     font-size: 0.9em; } }
 
+@media (max-width: 320px) {
+  .card-content h1 {
+    font-size: 1.5em; } }
+
 @keyframes Animation {
   0% {
     background-position: 50% 0%; }
