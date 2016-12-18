@@ -2730,7 +2730,7 @@ body {
 header {
   display: -ms-flexbox;
   display: flex;
-  padding: 120px 20px 100px;
+  padding: 120px 20px;
   perspective: 1000px;
   transform-style: preserve-3d;
   color: #FAFAFA; }
@@ -2739,7 +2739,7 @@ header {
     text-decoration: underline; }
 
 footer {
-  padding: 20px;
+  padding: 0 20px 20px;
   margin-bottom: 20px;
   text-align: center; }
 
@@ -2769,9 +2769,14 @@ footer {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px; }
+  #design h2 {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    color: #BDBDBD; }
   #design img {
     width: 100%;
-    margin: 20px 0;
+    margin: 0 0 40px;
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05); }
     #design img:hover, #design img:focus {
