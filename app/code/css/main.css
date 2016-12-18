@@ -2771,7 +2771,11 @@ footer {
   padding: 0 20px; }
   #design img {
     width: 100%;
-    margin: 20px 0; }
+    margin: 20px 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05); }
+    #design img:hover, #design img:focus {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
 
 @media (max-width: 425px) {
   header {
