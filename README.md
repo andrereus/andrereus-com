@@ -1,4 +1,4 @@
-# Andre Reus COM Website V2
+# Andre Reus COM Website Version 2
 
 ## Dependencies
 
