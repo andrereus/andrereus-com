@@ -11,7 +11,8 @@
     "url": "git+https://github.com/andrereus/synchange-progress.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/andrereus/synchange-progress/issues"
   },
